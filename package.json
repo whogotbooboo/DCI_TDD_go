@@ -19,7 +19,7 @@
     "karma-verbose-reporter": "0.0.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start karma.config.js --no-auto-watch --single-run"
   },
   "author": "",
   "license": "ISC"
