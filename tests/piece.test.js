@@ -20,7 +20,7 @@ describe('piece', function() {
 
   describe('interface getColor', function() {
     it('should return the color', function() {
-      expect(myPiece.getColor()).not.toBe(myPiece.color);
+      expect(myPiece.getColor()).toBe(myPiece.color);
     });
   });
 });
